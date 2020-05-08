@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#box{
+    width: 800px;
+    height: 700px;
+    /* border: 1px solid black; */
+    margin: 100px auto;
+}
+#box .ipt{
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 15px;
+    outline: none;
+    padding: 0 10px;
+}
+#box .weeks{
+    text-align: center;
+}
+#box .weeks .city{
+    width: 90%;
+    height: 40px;
+    line-height: 40px;
+    /* border: 1px solid #ccc; */
+    margin: 10px auto;
+    text-align: center;
+    box-shadow: 5px 5px 8px 4px #ccc;
+}
+#box .weeks .Warm-prompt{
+    text-align: center;
+}
+#box .weeks .yesterday{
+    display: inline-block;
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 10px;
+}
